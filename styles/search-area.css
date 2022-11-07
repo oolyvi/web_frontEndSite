@@ -1,0 +1,61 @@
+.search-area {
+  background-image: url("/img/hero.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 180px;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0px;
+}
+
+/* Search Bar */
+.search-bar {
+  position: absolute;
+  top: 75px;
+  left: 450px;
+  width: 347px;
+  height: 49px;
+  cursor: text;
+  font-size: 16px;
+  color: #009999;
+  padding-left: 15px;
+  border-style: none;
+}
+
+.search-bar::placeholder {
+  color: #00a7a7;
+  font-size: 16px;
+  padding-left: 2px;
+  padding-right: 15px;
+}
+
+/* Search Icon */
+.search-icon {
+  background-color: #009999;
+  position: absolute;
+  border-style: none;
+  cursor: pointer;
+  height: 52px;
+  width: 100px;
+  right: 450px;
+  top: 75px;
+  left: 811px;
+}
+
+.search-icon:hover {
+  background-color: #00661f;
+  transition: 0.3s;
+}
+
+.search-icon-img {
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  top: 17px;
+  left: 41px;
+}

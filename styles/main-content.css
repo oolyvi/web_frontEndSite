@@ -1,0 +1,224 @@
+/* Row 1 */
+.main-content-row1 {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 48px;
+}
+
+.row1-col1,
+.row1-col2,
+.row1-col3,
+.row1-col4 {
+  padding-left: 12px;
+  padding-right: 12px;
+  width: 337px;
+  height: 216px;
+}
+
+.row1-col1-img,
+.row1-col2-img,
+.row1-col3-img,
+.row1-col4-img {
+  width: 313px;
+  height: 176px;
+  cursor: pointer;
+}
+
+.row1-col1-img:hover,
+.row1-col2-img:hover,
+.row1-col3-img:hover,
+.row1-col4-img:hover {
+  filter: brightness(50%);
+  border-radius: 10px;
+  transition: 0.5s;
+  rotate: 5deg;
+}
+
+.row1-col1-texts,
+.row1-col2-texts,
+.row1-col3-texts,
+.row1-col4-texts {
+  color: #CCC;
+  font-size: 16px;
+  padding-top: 15px;
+}
+
+.row1-col1-views,
+.row1-col2-views,
+.row1-col3-views,
+.row1-col4-views {
+  color: #999;
+  float: right;
+  font-size: 16px;
+  padding-top: -2px;
+}
+
+
+
+
+/* Row 2 */
+.main-content-row2 {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 48px;
+}
+
+.row2-col1,
+.row2-col2,
+.row2-col3,
+.row2-col4 {
+  padding-left: 12px;
+  padding-right: 12px;
+  width: 337px;
+  height: 216px;
+}
+
+.row2-col1-img,
+.row2-col2-img,
+.row2-col3-img,
+.row2-col4-img {
+  width: 313px;
+  height: 176px;
+  cursor: pointer;
+}
+
+.row2-col1-img:hover,
+.row2-col2-img:hover,
+.row2-col3-img:hover,
+.row2-col4-img:hover {
+  filter: brightness(50%);
+  border-radius: 10px;
+  transition: 0.5s;
+  rotate: 5deg;
+}
+
+.row2-col1-texts,
+.row2-col2-texts,
+.row2-col3-texts,
+.row2-col4-texts {
+  color: #CCC;
+  font-size: 16px;
+  padding-top: 15px;
+}
+
+.row2-col1-views,
+.row2-col2-views,
+.row2-col3-views,
+.row2-col4-views {
+  color: #999;
+  float: right;
+  font-size: 16px;
+  padding-top: -2px;
+}
+
+
+
+/* Row 3 */
+.main-content-row3 {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 48px;
+}
+
+.row3-col1,
+.row3-col2,
+.row3-col3,
+.row3-col4 {
+  padding-left: 12px;
+  padding-right: 12px;
+  width: 337px;
+  height: 216px;
+}
+
+.row3-col1-img,
+.row3-col2-img,
+.row3-col3-img,
+.row3-col4-img {
+  width: 313px;
+  height: 176px;
+  cursor: pointer;
+}
+
+.row3-col1-img:hover,
+.row3-col2-img:hover,
+.row3-col3-img:hover,
+.row3-col4-img:hover {
+  filter: brightness(50%);
+  border-radius: 10px;
+  transition: 0.5s;
+  rotate: 5deg;
+}
+
+.row3-col1-texts,
+.row3-col2-texts,
+.row3-col3-texts,
+.row3-col4-texts {
+  color: #CCC;
+  font-size: 16px;
+  padding-top: 15px;
+}
+
+.row3-col1-views,
+.row3-col2-views,
+.row3-col3-views,
+.row3-col4-views {
+  color: #999;
+  float: right;
+  font-size: 16px;
+  padding-top: -2px;
+}
+
+
+/* Row 4 */
+.main-content-row4 {
+  display: flex;
+  flex-direction: row;
+}
+
+.row4-col1,
+.row4-col2,
+.row4-col3,
+.row4-col4 {
+  padding-left: 12px;
+  padding-right: 12px;
+  width: 337px;
+  height: 216px;
+}
+
+.row4-col1-img,
+.row4-col2-img,
+.row4-col3-img,
+.row4-col4-img {
+  width: 313px;
+  height: 176px;
+  cursor: pointer;
+}
+
+.row4-col1-img:hover,
+.row4-col2-img:hover,
+.row4-col3-img:hover,
+.row4-col4-img:hover {
+  filter: brightness(50%);
+  border-radius: 10px;
+  transition: 0.5s;
+  rotate: 5deg;
+}
+
+.row4-col1-texts,
+.row4-col2-texts,
+.row4-col3-texts,
+.row4-col4-texts {
+  color: #CCC;
+  font-size: 16px;
+  padding-top: 15px;
+}
+
+.row4-col1-views,
+.row4-col2-views,
+.row4-col3-views,
+.row4-col4-views {
+  color: #999;
+  float: right;
+  font-size: 16px;
+  padding-top: -2px;
+}

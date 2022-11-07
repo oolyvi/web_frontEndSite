@@ -1,0 +1,114 @@
+.page-crossing {
+  margin-top: 150px;
+  margin-bottom: -100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* Previous Button */
+.previous-button-div {
+  position: relative;
+  background-color: #009999;
+  width: 171px;
+  height: 54px;
+  opacity: 0.65;
+  cursor: not-allowed;
+  margin-left: 12px;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 5px;
+}
+
+.previous-button {
+  position: absolute;
+  left: 49px;
+  top: 15px;
+  text-decoration: none;
+  color: white;
+  cursor: not-allowed;
+  font-size: 19px;
+  border-style: none;
+}
+
+/* Page Numbers */
+.page-numbers {
+  padding-left: -400px;
+  width: 320px;
+  height: 80px;
+  margin-top: -12px;
+  margin-bottom: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  vertical-align: middle;
+}
+
+.button-1 {
+  padding-top: 19px;
+  background-color: #009999;
+  color: rgb(255, 255, 255);
+  width: 65px;
+  height: 45px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 400;
+  cursor: pointer;
+  text-align: center;
+}
+
+.button-2,
+.button-3,
+.button-4 {
+  padding-top: 19px;
+  background-color: #EEEEEE;
+  color: #999;
+  width: 60px;
+  height: 40px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 400;
+  cursor: pointer;
+  text-align: center;
+}
+
+.button-2:hover,
+.button-3:hover,
+.button-4:hover {
+  background-color: #009999;
+  color: rgb(255, 255, 255);
+  transition: 0.5s;
+
+}
+
+/* Next Page Button */
+
+.next-button-div {
+  position: relative;
+  background-color: #009999;
+  width: 186px;
+  height: 54px;
+  cursor: pointer;
+  margin-right: 12px;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 5px;
+}
+
+.next-button-div:hover {
+  background-color: #006868;
+}
+
+.next-button {
+  position: absolute;
+  left: 49px;
+  top: 15px;
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  font-size: 19px;
+  border-style: none;
+}

@@ -1,0 +1,80 @@
+.header {
+  height: 65px;
+  display: flex;
+  flex-direction: row;
+}
+
+/* Left section of header */
+.left-section {
+  width: 190px;
+  display: flex;
+  align-items: center;
+}
+
+.header-icon {
+  height: 50px;
+  margin-left: 5px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.navbar-brand {
+  font-size: 25px;
+  color: #3399CC;
+  cursor: pointer;
+}
+
+.navbar-brand:hover {
+  color: #1587d3;
+  transition: 0.2s;
+}
+
+/* Right section of header */
+.right-section {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: end;
+}
+
+.right-section a {
+  margin-left: 35px;
+  margin-right: 15px;
+  font-size: 18px;
+  text-decoration: none;
+  color: #666666;
+}
+
+.photos-link:hover,
+.videos-link:hover,
+.about-link:hover,
+.contact-link:hover {
+  color: #3399CC;
+  transition: 0.2s;
+}
+
+.photos-link {
+  padding-top: 4px;
+  border-bottom: 4px solid #2bb8ff;
+  border-radius: 1px;
+}
+
+.videos-link:hover,
+.about-link:hover,
+.contact-link:hover {
+  padding-top: 4px;
+  border-radius: 1px;
+}
+
+.videos-link:hover {
+  border-bottom: 4px solid #cc3333;
+}
+
+.about-link:hover {
+  border-bottom: 4px solid #33cc33;
+}
+
+.contact-link:hover {
+  border-bottom: 4px solid #6133cc;
+}
